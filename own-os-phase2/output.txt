@@ -1,0 +1,60 @@
+HELLO-WORLD                     
+HELLO-WORLD                     
+No error
+IR: H   
+IC= 4
+TI= 0  PI=0  SI=3
+TTC= 5   TTL= 5   TLC= 2   TLL= 2
+
+
+Invalid page fault
+IR: LR30
+IC= 2
+TI= 0  PI=3  SI=0
+TTC= 2   TTL= 6   TLC= 0   TLL= 1
+
+
+Operation code error
+IR: CO20
+IC= 6
+TI= 0  PI=1  SI=0
+TTC= 9   TTL= 14   TLC= 0   TLL= 3
+
+
+Time limit exceeded
+IR: GD30
+IC= 3
+TI= 2  PI=0  SI=1
+TTC= 4   TTL= 4   TLC= 0   TLL= 1
+
+
+4 8 12 16 20 24 28 32 36 40     
+No error
+IR: H   
+IC= 11
+TI= 0  PI=0  SI=3
+TTC= 15   TTL= 19   TLC= 1   TLL= 1
+
+
+HELLO-WORLD                     
+Line limit exceeded
+IR: PD10
+IC= 3
+TI= 0  PI=0  SI=2
+TTC= 3   TTL= 5   TLC= 2   TLL= 1
+
+
+Out of Data Error
+IR: GD10
+IC= 1
+TI= 0  PI=0  SI=1
+TTC= 1   TTL= 6   TLC= 0   TLL= 1
+
+
+Operand error
+IR: BTqt
+IC= 7
+TI= 0  PI=2  SI=0
+TTC= 10   TTL= 14   TLC= 0   TLL= 2
+
+
